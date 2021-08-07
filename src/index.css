@@ -49,3 +49,35 @@ ul {
 .game-info {
   margin-left: 20px;
 }
+
+.current-move {
+  font-weight: bold;
+}
+
+.winner {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.winner-square {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+
+.draw {
+  color: gray;
+  font-style: italic;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.sort-button {
+  margin: auto;
+}
